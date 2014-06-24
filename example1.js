@@ -12,7 +12,8 @@ function execute(someFunction, value) {
 
 execute(say, "Hello");
 
-// also can be done with 
+/* also can be done with an anonymous function
+it can be called that because the function is not named */
 
 function execute(someFunction, value) {
   someFunction(value);
