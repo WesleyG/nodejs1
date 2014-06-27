@@ -2,4 +2,5 @@ http://www.nodebeginner.org/
 
 up to:
 
-"Great, we now can put the different parts of our application into different files and wire them together by making them modules.""
+"Ok, that’s all we need to wire server, router, and request handlers together! When starting our
+application and requesting"
