@@ -1,8 +1,8 @@
 
 -- July 2014 -- 
 Node Beginner Book
-Left off at "Ok, then why is that a problem? The short answer: because we will run into problems if one the
-request handlers wants to make use of a non-blocking operation in the future."
+Left off at "The start handler will respond from within the anonymous exec() callback, and the upload handler
+still simply replies with “Hello Upload”, but now by making use of the response object."
 
 -- old from June 2014 --
 
