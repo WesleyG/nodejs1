@@ -1,8 +1,7 @@
 
 -- July 2014 -- 
 Node Beginner Book
-Left off at "The HTML for this textarea form needs to be served by our /start request handler, so let’s add it
-right away, in file requestHandlers.js:"
+Left off at "Let’s add even more awesome to our app."
 
 Start is taking 10 seconds but upload is immediate - asynchronous, non-blocking requests are working.
 
