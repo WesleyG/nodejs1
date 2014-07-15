@@ -1,7 +1,7 @@
 
 -- July 2014 -- 
 Node Beginner Book
-Left off at "Let’s add even more awesome to our app."
+Left off at "the image file saved at /tmp/test.png should be displayed."
 
 Start is taking 10 seconds but upload is immediate - asynchronous, non-blocking requests are working.
 
