@@ -1,7 +1,7 @@
 
 -- July 2014 -- 
 Node Beginner Book
-Left off at "Great. The next step is a bit more complex of course."
+Left off at "Let’s put the pieces of managing the uploaded file and renaming it together now,"
 
 Start is taking 10 seconds but upload is immediate - asynchronous, non-blocking requests are working.
 
