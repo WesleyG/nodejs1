@@ -11,8 +11,9 @@ function start(response) {
     'content="text/html; charset=UTF-8" />'+
     '</head>'+
     '<body>'+
-    '<form action="/upload" enctype="multipart/form-data" '+ 'method="post">'+
-    '<input type="file" name="upload">'+
+    '<form action="/upload" enctype="multipart/form-data" '+ 
+    'method="post">'+
+    '<input type="file" name="upload" multiple="multiple">'+
     '<input type="submit" value="Upload file" />'+
     '</form>'+
     '</body>'+
@@ -31,7 +32,7 @@ function upload(response, request) {
   form.parse(request, function(error, fields, files) {
     console.log("parsing done");
 
-    fs.rename(files.upload.path, "/tmp/test.png", function(error) {
+    fs.rename(files.upload.path, "./tmp/test.png", function(error) {
       if (error) {
         fs.unlink("./tmp/test.png");
         fs.rename(files.upload.path, "./tmp/test.png");
