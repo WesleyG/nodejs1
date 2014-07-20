@@ -11,6 +11,7 @@ function start(response) {
     'content="text/html; charset=UTF-8" />'+
     '</head>'+
     '<body>'+
+    '<p>test</p>' +
     '<form action="/upload" enctype="multipart/form-data" '+ 
     'method="post">'+
     '<input type="file" name="upload" multiple="multiple">'+
@@ -52,6 +53,25 @@ function show(response) {
   fs.createReadStream("./tmp/test.png").pipe(response);
 }
 
+function bob(response) {
+  console.log("Request handler 'test' was called.");
+
+  var body = '<html>'+
+    '<head>'+
+    '<meta http-equiv="Content-Type" '+
+    'content="text/html; charset=UTF-8" />'+
+    '</head>'+
+    '<body>'+
+    '<p>this is the test page</p>'
+    '</body>'+
+    '</html>';
+
+    response.writeHead(200, {"Content-Type": "text/html"});
+    response.write(body);
+    response.end();
+}
+
 exports.start = start;
 exports.upload = upload;
 exports.show = show;
+exports.bob = bob;
