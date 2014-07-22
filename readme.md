@@ -1,5 +1,14 @@
 
 -- July 2014 -- 
+
+Hands on Node.js
+
+Up to:
+"
+Understanding the Node event loop
+"
+---
+
 Node Beginner Book
 Left off at "Let’s put the pieces of managing the uploaded file and renaming it together now,"
 
