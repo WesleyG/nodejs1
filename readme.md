@@ -5,7 +5,7 @@ Hands on Node.js
 
 Up to:
 "
-Understanding the Node event loop
+Callbacks that will generate events
 "
 ---
 
