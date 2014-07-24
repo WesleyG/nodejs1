@@ -5,7 +5,7 @@ Hands on Node.js
 
 Up to:
 "
-Callbacks that will generate events
+On every callback we are registering a new one to be invoked one second later, never letting Node finish and exit. This little script will just keep printing “Hello World”.
 "
 ---
 
