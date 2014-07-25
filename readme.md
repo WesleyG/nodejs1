@@ -5,7 +5,7 @@ Hands on Node.js
 
 Up to:
 "
-On every callback we are registering a new one to be invoked one second later, never letting Node finish and exit. This little script will just keep printing “Hello World”.
+Create an uninitialized buffer with 100 bytes length and fill it with bytes with values starting from 0 to 99. And then print its contents.
 "
 ---
 
