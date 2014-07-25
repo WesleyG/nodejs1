@@ -5,7 +5,11 @@ Hands on Node.js
 
 Up to:
 "
-Create an uninitialized buffer with 100 bytes length and fill it with bytes with values starting from 0 to 99. And then print its contents.
+completed exercise 2, next is...
+
+Do what is asked on exercise 1 and then copy bytes ranging 40 to 60 into a new buffer. And then print it.
+
+
 "
 ---
 
