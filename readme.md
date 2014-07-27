@@ -3,12 +3,10 @@
 
 Hands on Node.js
 
-Up to:
+Up to page 32:
 "
-completed exercise 2, next is...
 
-Do what is asked on exercise 1 and then copy bytes ranging 40 to 60 into a new buffer. And then print it.
-
+Build a script that instantiates one Ticker and bind to the “tick” event, printing “TICK” every time it gets one.
 
 "
 ---
